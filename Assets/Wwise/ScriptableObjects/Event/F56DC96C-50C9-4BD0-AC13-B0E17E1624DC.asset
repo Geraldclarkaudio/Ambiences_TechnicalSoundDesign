@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8220ab5a2452aef41994fa1d23ef0d34, type: 3}
+  m_Name: F56DC96C-50C9-4BD0-AC13-B0E17E1624DC
+  m_EditorClassIdentifier: 
+  objectName: Play_Courtyard_AMB
+  id: 385465618
+  guid: F56DC96C-50C9-4BD0-AC13-B0E17E1624DC
+  IsInUserDefinedSoundBank: 1
+  IsAutoBankLoaded: 0
