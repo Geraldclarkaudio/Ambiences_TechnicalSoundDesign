@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="Ambience_TSD_WwiseProject" GUID="{023FF0E0-74E0-4D75-9637-D51212F98DDD}" Generator="2024.1.0.8669"/>
+	<CacheRoot>../../../../../../Wwise Projects/Ambience_TSD_WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Windows" GUID="{276B2CA8-E8B3-4160-BD76-9E23ECAC7AC7}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../../../Wwise Projects/Ambience_TSD_WwiseProject/GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{FD1E84B5-7FCF-4E87-AD34-FBF44C23B543}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{C88F2BE5-75D6-BC97-B0DE-2FC865372067}</FileHash>
+</ProjectInfo>

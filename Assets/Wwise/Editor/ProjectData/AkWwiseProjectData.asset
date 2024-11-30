@@ -37,7 +37,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Factory Acoustic Textures
     guid: 6b663d46a83ca54f8b4a5fef12b883f6
     GuidInternal: 
-    m_lastTime: -8584693573879507545
+    m_lastTime: -8584689982865980039
     List:
     - name: Acoustic_Banner
       guid: f2532d2fccda8e408b8898b1b52a26d6
@@ -209,6 +209,20 @@ MonoBehaviour:
         ObjectType: 15
         guid: 313793c51a00b44a98dd9b033a8c8eab
       Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Mountain
+    - name: Test
+      guid: b3aaf15c6ef94047878a3b05b06944f1
+      id: 3157003241
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Test
+        ObjectType: 15
+        guid: b3aaf15c6ef94047878a3b05b06944f1
+      Path: Virtual Acoustics\Factory Acoustic Textures\Test
     - name: Textures
       guid: a3121e7828e3df4a8bba5fb89c74031d
       id: 1276632493
@@ -303,7 +317,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: f4d3c7390417674c9a997031d8830a21
     GuidInternal: 
-    m_lastTime: -8584691759436231106
+    m_lastTime: -8584686114140691486
     List:
     - name: Beach
       guid: cfc2f93ee4895a4393810aea24501001
@@ -416,6 +430,23 @@ MonoBehaviour:
         ObjectType: 1
         guid: 3b6a54d8cff6784b87ea4a327f997c41
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverbs\Room
+    - name: SFX
+      guid: e64688ae1e46c4459faa04182fb72a6f
+      id: 393239870
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f4d3c7390417674c9a997031d8830a21
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: SFX
+        ObjectType: 2
+        guid: e64688ae1e46c4459faa04182fb72a6f
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX
     - name: Space
       guid: 42f8b91bc2e8e24cadc6c3696b84c8e6
       id: 4164838345
@@ -545,8 +576,44 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 6a710e6b2b995544b2be7bfca449e22e
     GuidInternal: 
-    m_lastTime: -8584691760452999976
+    m_lastTime: -8584690004084342959
     List: []
+  - PhysicalPath: Events\SFX.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Terminal
+      ObjectType: 12
+      guid: 45c1703f43efd844be70f8bda6bcd893
+    - ElementName: SFX
+      ObjectType: 12
+      guid: 452334f9a5644145aeafb58644a6146d
+    ParentPath: Events\Terminal\SFX
+    guid: 452334f9a5644145aeafb58644a6146d
+    GuidInternal: 
+    m_lastTime: -8584690004084342959
+    List:
+    - name: Play_Basic_Laser
+      guid: baa095d5f90ff44fad14cfc162c65330
+      id: 2014730432
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Terminal
+        ObjectType: 12
+        guid: 45c1703f43efd844be70f8bda6bcd893
+      - ElementName: SFX
+        ObjectType: 12
+        guid: 452334f9a5644145aeafb58644a6146d
+      - ElementName: Play_Basic_Laser
+        ObjectType: 3
+        guid: baa095d5f90ff44fad14cfc162c65330
+      Path: Events\Terminal\SFX\Play_Basic_Laser
+      maxAttenuation: 25
+      maxDuration: 0
+      minDuration: 0
   - PhysicalPath: Events\Terminal.wwu
     PathAndIcons:
     - ElementName: Events
@@ -558,7 +625,7 @@ MonoBehaviour:
     ParentPath: Events\Terminal
     guid: 45c1703f43efd844be70f8bda6bcd893
     GuidInternal: 
-    m_lastTime: -8584691753742279571
+    m_lastTime: -8584690004084357987
     List: []
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
@@ -770,7 +837,7 @@ MonoBehaviour:
     m_lastTime: -8584691760452964877
     List: []
   ExpandedFileSystemItemIds: 02000000030000000400000010000000110000001200000013000000
-  ExpandedWaapiItemIds: 0100000002000000030000000400000005000000060000000700000008000000090000000c0000000d00000025000000
+  ExpandedWaapiItemIds: 0100000002000000030000000400000005000000060000000700000008000000090000000c0000000d000000110000001200000013000000140000001500000016000000250000006000000062000000640000006b0100006d0100006f0100001602000018020000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

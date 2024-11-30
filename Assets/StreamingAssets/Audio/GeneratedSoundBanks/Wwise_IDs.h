@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_BASIC_LASER = 2014730432U;
         static const AkUniqueID PLAY_COURTYARD_AMB = 385465618U;
         static const AkUniqueID PLAY_ROOM_AMB = 1175029690U;
     } // namespace EVENTS
@@ -40,6 +41,7 @@ namespace AK
     namespace BUSSES
     {
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
+        static const AkUniqueID SFX = 393239870U;
     } // namespace BUSSES
 
     namespace AUX_BUSSES
